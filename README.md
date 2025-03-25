@@ -14,6 +14,7 @@ This is a simple authentication application using Auth0, built with React.js for
 
 ###  Clone the Repository
 git clone https://github.com/Balramchaurasia/Auth0-app.git
+
 cd Auth0-app
 
 ###  Install Dependencies
