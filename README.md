@@ -13,7 +13,7 @@ This is a simple authentication application using Auth0, built with React.js for
 ##  Getting Started
 
 ###  Clone the Repository
-git clone https://github.com/YourUsername/Auth0-app.git
+git clone https://github.com/Balramchaurasia/Auth0-app.git
 cd Auth0-app
 
 ###  Install Dependencies
