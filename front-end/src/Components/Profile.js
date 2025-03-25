@@ -13,7 +13,7 @@ function Profile() {
     try {
       if (isAuthenticated) {
         const token = await getAccessTokenSilently();
-        let reponse = await axios.post("http://localhost:8080/auth/callback", {
+        let reponse = await axios.post("https://auth0-app.onrender.com/auth/callback", {
           token,
         });
         setReponseMsg(reponse?.data?.message);
