@@ -4,7 +4,9 @@ import authRouter from "./src/routes/auth/route.js";
 
 const app=express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: ["https://auth0-app-three.vercel.app"]
+  }));
 app.use("/auth",authRouter);
 
 
