@@ -8,8 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <Auth0Provider
-    domain="dev-qzwvwtx3l5tftscs.us.auth0.com"
-    clientId="4jtsNHQT9dtec9BOVbj7KmcxfF7PYaTB"
+    domain="dev-.us..com"
+    clientId=""
     authorizationParams={{
       redirect_uri: window.location.origin
     }}
